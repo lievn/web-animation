@@ -21,7 +21,7 @@ h3 {
 }
 
 p { text-align: center; font-size: 0.8rem; }
-p.article-link { font-size: 0.8rem; }
+p.article-link { font-size: 0.6rem; }
 p.article-link a { font-size: inherit !important; text-decoration: underline !important; }
 
 .small { font-size: 0.7rem; }
