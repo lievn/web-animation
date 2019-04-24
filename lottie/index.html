@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { background: #f3f3f3; color: #666; font: 16px sans-serif; }
+
+    .cool { outline: none; position: fixed; top: calc(50% - 25px); left: calc(50% - 100px); height: 50px; width: 200px;  z-index: 999; border: 1px solid rgba(255, 255, 255, 0.5); box-shadow: 0 0 20px rgba(0, 0, 50, 0.2); background: linear-gradient(#99f, #88f); color: #eee; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); font: inherit; border-radius: 5px; padding: 5px 40px; }
+    .spiral-wrap { position: fixed; transform: translate(-50vw, -100vw); }
+    .spiral { transition: opacity 0.3s; transform-origin: 50% 50%; position: fixed; animation: 5s linear rotate infinite; width: 3000px; height: 3000px;}
+
+    @keyframes rotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="spiral-wrap">
+    <img src="spiral.svg" alt="" class="spiral">
+  </div>
+  <div id="center">
+    <button class="cool">Click the button!</button>
+  </div>
+<div id="lottie" style="z-index: 100; position: fixed; top: calc(50% - 150px); left: calc(50% - 150px); width: 300px; height: 300px;"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.2/lottie_light_html.js" type="text/javascript"></script>
+<script>
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('lottie'), // Required
+  path: 'anim/happy-birthday.json', // Required
+  renderer: 'html', // Required
+  loop: false, // Optional
+  autoplay: false, // Optional
+  name: "Hello World", // Name for future reference. Optional.
+});
+
+document.querySelector('.cool').addEventListener('click', function(e) {
+  e.target.parentNode.removeChild(e.target);
+  document.querySelector('.spiral').style.opacity = 0.2;
+  animation.play();
+});
+
+</script>
+
+  <script src=""></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" baseProfile="basic" id="Layer_1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 3000 3000"
+	 xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);fill:url(#SVGID_3_);stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st1{clip-path:url(#SVGID_2_);fill:#00B6FF;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="3000" height="3000"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	
+		<radialGradient id="SVGID_3_" cx="1499" cy="1507" r="1488.0444" gradientTransform="matrix(1 0 0 1.021 0 -46.6404)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#45B1FF"/>
+		<stop  offset="1" style="stop-color:#002A73"/>
+	</radialGradient>
+	<rect x="-0.5" y="-15.5" class="st0" width="2999" height="3015"/>
+	<polygon class="st1" points="1500.5,1499.5 -560.01,1771.74 -496.37,1343.23 	"/>
+	<polygon class="st1" points="1500.5,1499.5 -560.01,1771.74 -496.37,1343.23 	"/>
+	<polygon class="st1" points="1500.5,1499.5 1772.74,3560.01 1344.23,3496.37 	"/>
+	<polygon class="st1" points="1500.5,1499.5 40.52,3404 -257.37,3002.2 	"/>
+	<polygon class="st1" points="1500.5,1499.5 3150,2764 2802,3022 	"/>
+	<polygon class="st1" points="1500.5,1499.5 3675.46,3166.81 3216.6,3507 	"/>
+	<polygon class="st1" points="1500.5,1499.5 2884.59,-306 3166.99,74.91 	"/>
+	<polygon class="st1" points="1500.5,1499.5 3561.01,1227.26 3497.37,1655.77 	"/>
+	<polygon class="st1" points="1500.5,1499.5 -285,130.74 91.69,-148.53 	"/>
+	<polygon class="st1" points="1500.5,1499.5 1228.26,-561.01 1656.77,-497.37 	"/>
+	<polygon class="st1" points="1500.5,1499.5 -298.98,2539.54 -404.17,2119.29 	"/>
+	<polygon class="st1" points="1500.5,1499.5 -298.98,2539.54 -404.17,2119.29 	"/>
+	<polygon class="st1" points="1500.5,1499.5 2540.54,3298.98 2120.29,3404.17 	"/>
+	<polygon class="st1" points="1500.5,1499.5 963.49,3507.34 591.96,3284.56 	"/>
+	<polygon class="st1" points="1500.5,1499.5 3508.34,2036.51 3285.56,2408.04 	"/>
+	<polygon class="st1" points="1500.5,1499.5 3508.34,2036.51 3285.56,2408.04 	"/>
+	<polygon class="st1" points="1500.5,1499.5 2037.51,-508.34 2409.04,-285.56 	"/>
+	<polygon class="st1" points="1500.5,1499.5 3299.98,459.46 3405.17,879.71 	"/>
+	<polygon class="st1" points="1500.5,1499.5 -507.34,962.49 -284.56,590.96 	"/>
+	<polygon class="st1" points="1500.5,1499.5 460.46,-299.98 880.71,-405.17 	"/>
+</g>
+</svg>
