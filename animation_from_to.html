@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>animation with css</title>
+
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .A {
+      width: 100px;
+      height: 100px;
+      background: red;
+      animation-name: moveA;
+      animation-duration: 500ms;
+      animation-iteration-count: infinite;
+    }
+
+    .B {
+      width: 100px;
+      height: 100px;
+      background: red;
+      animation-name: moveB;
+      animation-duration: 500ms;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes moveA {
+
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(90deg);
+      }
+
+    }
+
+    @keyframes moveB {
+
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(-90deg);
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="A"></div>
+  <div class="B"></div>
+  <div class="A"></div>
+  <div class="B"></div>
+  <div class="A"></div>
+  <div class="B"></div>
+  <div class="A"></div>
+  <div class="B"></div>
+  <div class="A"></div>
+  <div class="B"></div>
+
+</body>
+
+</html>

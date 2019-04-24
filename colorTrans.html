@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+   html, body {
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #colordiv {
+      height: 400px;
+      width: 400px;
+      border-radius: 50px;
+      background: dodgerblue;
+      margin: 10px;
+      transition: background 1s linear;
+    }
+
+    #colordiv:hover {
+      background: red;
+    }
+
+    #colordiv > p{
+      color: white;
+      font-size: 3em;
+      text-align: center;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="colordiv"></div>
+</body>
+
+</html>

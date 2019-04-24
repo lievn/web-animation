@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>
+  </title>
+
+  <style>
+    .tada {
+      text-align: center;
+      margin-top: 20%;
+      font-size: 5em;
+    }
+
+    .heartbeat {
+      text-align: center;
+      margin-top: 5%;
+      font-size: 5em;
+      animation: heartBeat 1s infinite;
+    }
+
+    .tada:hover {
+      animation: tada 1s 1;
+    }
+
+    a {
+      margin-left: 45%;
+      text-align: center;
+    }
+
+    @keyframes tada {
+      from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+      }
+
+      10%,
+      20% {
+        -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+      }
+
+      30%,
+      50%,
+      70%,
+      90% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+      }
+
+      40%,
+      60%,
+      80% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+      }
+
+      to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+      }
+    }
+
+
+    @keyframes heartBeat {
+      0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+
+      14% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+      }
+
+      28% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+
+      42% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+      }
+
+      70% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="tada">
+    <h2>tada</h2>
+  </div>
+  <div class="heartbeat">
+    <h2>heartbeat</h2>
+  </div>
+
+  <a href="https://daneden.github.io/animate.css/">as seen on animate.css</a>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>animation with css</title>
+
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    p {
+      font-family: myfont, serif;
+      text-align: center;
+      animation-name: move;
+      animation-duration: 5000ms;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes move {
+
+        0%,
+        100% {
+          color: black;
+          font-size: 14px;
+          transform: rotate(180deg);
+        }
+
+        50% {
+          color: red;
+          font-size: 140px;
+          transform: rotate(0deg);
+        }
+
+      }
+
+  </style>
+</head>
+
+<body>
+
+  <p>!rotate and scale!</p>
+
+</body>
+
+</html>
