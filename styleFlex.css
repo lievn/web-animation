@@ -20,6 +20,10 @@ h3 {
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 
+p { text-align: center; font-size: 0.8rem; }
+p.article-link { font-size: 0.8rem; }
+p.article-link a { font-size: inherit !important; text-decoration: underline !important; }
+
 .small { font-size: 0.7rem; }
 
 #examples ul {
@@ -35,11 +39,11 @@ h3 {
   text-decoration: none;
   color: #a8a8a8;
   font-size: .6em;
+  transition-duration: 0.5s;
 }
 
 #examples ul a:hover {
   color: black;
-  font-size: .8em;
 }
 
 img {
